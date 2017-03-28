@@ -1,0 +1,167 @@
+/*--------------------------------
+			MAIN
+---------------------------------*/
+
+.title{
+	background-color: lightred;
+}
+.white {
+	margin: 70px 10px 5px 10px;
+
+}
+
+.main {
+	background-color: #fff;
+	border-radius: 5px;
+	height: 195px;
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	opacity: 0.75;
+}
+
+.quote {
+	font-size: 1.5em;
+	font-family: Calibri;
+	text-align: center;
+}
+
+.writer {
+	font-size: 1em;
+	font-family: Calibri;
+	color: #888;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.nav {
+	  margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+}
+.back{
+  
+  float: left;
+  margin: auto;
+}
+.backc {
+	background-color: #40c4ff;
+  background-image: url(../img/back.png); 
+  background-repeat: no-repeat;
+	border-radius: 20px;
+  background-position: center; 
+	font-size: 0px;
+  width: 40px;
+	height: 40px;
+	padding-left: 20px;
+	float: left;
+
+
+}
+.next{
+  
+  float: right;
+  margin: auto;
+}
+.nextc {
+	background-color: #40c4ff;
+  background-image: url(../img/next.png);
+  background-repeat: no-repeat; 
+	border-radius: 20px;
+  background-position: center; 
+  font-size: 0px;
+	width: 40px;
+	height: 40px;
+	float:left;
+  margin: auto;
+}
+
+#back{
+	margin: 10px 9px;
+	height: 20px
+}
+
+#next {
+	margin: 10px 11px;
+	height: 20px;
+}
+
+.footer{
+    overflow: hidden;
+    padding-top: 30px;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.dcircle {
+	background-color: #1de9b6;
+	border-radius: 25px;
+	width: 50px;
+	height: 50px;
+  margin: auto;
+	
+}
+.dcircle:hover{
+  background-color: #00BFA5;
+}
+
+.scircle {
+	background-color: #1de9b6;
+	border-radius: 25px;
+	width: 50px;
+	height: 50px;
+	margin: auto;
+}
+.scircle:hover{
+  background-color: #00BFA5;
+}
+
+.ccircle {
+	background-color: #1de9b6;
+	border-radius: 25px;
+	width: 50px;
+	height: 50px;
+  margin: auto;
+	
+}
+.ccircle:hover{
+  background-color: #00BFA5;
+}
+
+#f1, #f2, #f3{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+
+#download, #share, #copy {
+	margin: 12px;
+}
+
+.options{
+  width: 100%;
+  float: right;
+  margin: auto;
+}
+#opt1{
+	color: #eee;
+	font-family: Calibri;
+}
+
+#opt2{
+	color: #eee;
+	font-family: Calibri;
+}
+
+#opt3{
+	color: #eee;
+  font-family: Calibri;
+}
+
+
+

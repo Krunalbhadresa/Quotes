@@ -1,0 +1,38 @@
+@media screen and (min-width: 361px) {
+  #main{
+    height: 210px;
+    margin: auto;
+  }
+  .slider-inner{
+    height: 210px;
+    margin: auto;
+  }
+  .options{
+    margin:auto;
+  }
+  .ninja-slider{
+    height: 204px;
+  }
+  
+  .footer{
+    margin: auto;
+  }
+  .nav{
+    margin: auto;
+  }
+
+} 
+
+
+
+
+@media screen and (min-width: 481px){
+
+  nav ul li {
+    text-align: center;
+    border-bottom: 0px;
+  }
+  nav li:first-child {
+    border-left: 1px solid #ddd;
+  }
+}

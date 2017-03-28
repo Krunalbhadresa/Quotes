@@ -1,0 +1,36 @@
+myFunction([{
+	"quote": "HTML Tutorial",
+	"writer": "1"
+	},
+{
+	"quote": "CSS Tutorial",
+	"writer": "2"
+},
+{
+	"quote": "JavaScript Tutorial",
+	"writer": "3"
+},
+{
+	"quote": "jQuery Tutorial",
+	"writer": "4"
+},
+{
+	"quote": "JSON Tutorial",
+	"writer": "5"
+},
+{
+	"quote": "AJAX Tutorial",
+	"writer": "6"
+},
+{
+	"quote": "SQL Tutorial",
+	"writer": "7"
+},
+{
+	"quote": "PHP Tutorial",
+	"writer": "8"
+},
+{
+	"quote": "XML Tutorial",
+	"writer": "9"
+}])
