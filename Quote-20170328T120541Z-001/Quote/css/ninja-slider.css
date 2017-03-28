@@ -1,0 +1,74 @@
+/* Visit http://www.menucool.com/responsive-slider for instructions */
+
+#ninja-slider {
+    width:100%;
+    max-width:900px;
+    /*min-width:375px;
+    background:#191919;*/
+    padding-top: 30px ;
+
+    margin:0 auto;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+
+#ninja-slider .slider-inner {
+    margin:0 auto;/*center-aligned */
+    font-size:0px;
+    position:relative;
+}
+
+#ninja-slider ul {
+    /*background-color:black;*/
+    position:relative;
+    list-style:none;
+    padding:30%;
+}
+
+#ninja-slider li {    
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    position: absolute;
+    font-size:12px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    opacity:0;
+    overflow:hidden;
+    transform-style: preserve-3d; /*prevent blurry of its children*/
+}
+
+#ninja-slider li.ns-show {
+    opacity:1;
+}
+/* ---------Arrow buttons ------- */   
+/* The arrow button id should be: slider id + ("-prev", "-next", and "-pause-play") */ 
+ #ninja-slider-prev, #ninja-slider-next
+{
+    
+    -webkit-transition:all 0.7s;
+    transition:all 0.4s;
+} 
+
+#ninja-slider-prev::before {
+    -ms-transform:rotate(-45deg);/*IE 9*/
+    -webkit-transform:rotate(-45deg);
+    transform: rotate(-45deg);
+    left:14px;
+}
+
+#ninja-slider-next::before {
+    -ms-transform:rotate(135deg);/*IE 9*/
+    -webkit-transform:rotate(135deg);
+    transform: rotate(135deg);
+    right:14px;
+}
+
+/*pagination num within the arrow buttons*/
+.backc:hover, .nextc:hover {background-color:rgba(64,160,255,1);}
+
+
+
+
